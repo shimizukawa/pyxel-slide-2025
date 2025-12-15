@@ -2,9 +2,13 @@
 
 Markdownで書いたスライドをPyxelゲームエンジンで表示します。
 
-デモ
+Pyxelスライドのデモ
 
 - https://shimizukawa.github.io/pyxel-slide-2025/
+
+Sphinx-Reveal.js版
+
+- https://shimizukawa.github.io/pyxel-slide-2025/revealjs/slide-ja.html
 
 ## 実行
 
