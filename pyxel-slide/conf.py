@@ -13,7 +13,10 @@ source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",
 }
-myst_enable_extensions = ["deflist"]
+myst_enable_extensions = [
+    "deflist",
+    "linkify",
+]
 
 exclude_patterns = ["assets"]
 

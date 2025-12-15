@@ -3,7 +3,7 @@
 # dependencies = [
 #     "sphinx-revealjs==3.2.*",
 #     "sphinx==8.*",
-#     "myst-parser==4.*",
+#     "myst-parser[linkify]==4.*",
 #     "click",
 # ]
 # ///
