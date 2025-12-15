@@ -10,6 +10,10 @@ Sphinx-Reveal.js版
 
 - https://shimizukawa.github.io/pyxel-slide-2025/revealjs/slide-ja.html
 
+Blog版
+
+- https://www.freia.jp/taka/blog/2025/12/pyxel-slide/index.html
+
 ## 実行
 
 Pyxelアプリ起動
