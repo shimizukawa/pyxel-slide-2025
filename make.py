@@ -8,7 +8,6 @@
 # ]
 # ///
 import subprocess
-import webbrowser
 import shutil
 from pathlib import Path
 
@@ -55,8 +54,13 @@ def revealjs():
         ]
     )
     # Pythonからブラウザで build/revealjs/slide-ja.html を開く
-    slide_path = Path("build/revealjs/slide-ja.html").resolve()
-    webbrowser.open_new_tab(slide_path.as_uri())
+    # slide_path = Path("build/revealjs/slide-ja.html").resolve()
+    # webbrowser.open_new_tab(slide_path.as_uri())
+
+    Path("./dist").mkdir(exist_ok=True, parents=True)
+    if Path("dist/revealjs").exists():
+        shutil.rmtree("dist/revealjs")
+    shutil.copytree(Path("build/revealjs"), "dist/revealjs")
 
 
 @click.group()

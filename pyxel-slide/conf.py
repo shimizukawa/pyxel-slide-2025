@@ -18,3 +18,6 @@ myst_enable_extensions = ["deflist"]
 exclude_patterns = ["assets"]
 
 html_theme = "alabaster"
+
+revealjs_static_path = ["_static"]
+revealjs_css_files = ["custom.css"]

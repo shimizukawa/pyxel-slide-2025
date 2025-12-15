@@ -1,7 +1,7 @@
 # Pyxelで作る<br>レトロプレゼンスライド
 
-Pyxel Advent Calendar 2025
-2025.12.16
+Pyxel Advent Calendar 2025 \
+2025.12.16 \
 @shimizukawa
 
 ## はじめに
